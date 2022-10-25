@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgray;
+    color: black;
+    text-align: center;
+    padding: 50px;
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    max-width: calc((80px + 20px) * 8);
+    margin: 0 auto;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    background-color: #627264;
+}
+
+.boxfizz {
+    background-color: #A1CDA8;
+}
+
+.boxbuzz {
+    background-color: #C5E7E2;
+}
+
+.boxfizzbuzz {
+    background-color: #AD9BAA;
+}
